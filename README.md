@@ -1,8 +1,6 @@
 #Learning C Programming Language#
 
-This document is a collection of C reference materials and code snippets that we have learnt and want to record.
-
-It can also be a place to set out goals.
+This document is a collection of C reference materials and code snippets.
 
 ##To Do's##
 - [x] one
