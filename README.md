@@ -38,6 +38,8 @@ There are three options mentioned [here](http://stackoverflow.com/a/1921557), I'
 Individual characters are enclosed in single quotes, like this: 'a', and have the variable type char. On the other hand, string values are enclosed in double quotes, like this: "abcdefg". String variables are either arrays of type char or have the type "pointer to char", that is, char *.
 [more on this here](http://www.crasseux.com/books/ctutorial/Conventions-and-declarations.html#Conventions%20and%20declarations)
 
+You can view the below code in the test [file](/strings.c)
+
 Variable:
 
     char* x = "hello world";
