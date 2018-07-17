@@ -1,18 +1,18 @@
-#Learning C Programming Language#
+# Learning C Programming Language
 
 This document is a collection of C reference materials and code snippets.
 
-##To Do's##
+## To Do's
 - [x] one
 - [ ] two
 
-##References##
+## References
 * [GNU C tutorial](http://www.crasseux.com/books/ctutorial/)
     * from this stackoverflow ticket - [Online C reference manuals](http://stackoverflow.com/questions/190006/online-c-reference-manuals)
 
-##Snippets##
+## Snippets
 
-####Build and Run####
+#### Build and Run
 
 To build the c program write `make <filename-without-extension>`.
 
@@ -22,19 +22,19 @@ To run the program file that the above creates write `./<filename-without-extens
 
     ./p4.4
 
-####Arrays####
+#### Arrays
 https://www.tutorialspoint.com/cprogramming/c_arrays.htm
 
-####Boolean Variables####
+#### Boolean Variables
 There are three options mentioned [here](http://stackoverflow.com/a/1921557), I've used the below.
 
     typedef enum { false, true } bool;
     
-####Char Variables####
+#### Char Variables
 
     char x = 'x';
 
-####String Variables####
+#### String Variables
 Individual characters are enclosed in single quotes, like this: 'a', and have the variable type char. On the other hand, string values are enclosed in double quotes, like this: "abcdefg". String variables are either arrays of type char or have the type "pointer to char", that is, char *.
 [more on this here](http://www.crasseux.com/books/ctutorial/Conventions-and-declarations.html#Conventions%20and%20declarations)
 
